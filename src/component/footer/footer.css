@@ -61,7 +61,7 @@ footer a{
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
     #footer{
-        transform: translateY(220%);
+        transform: translateY(270%);
         width: 100%;
     }
     .permalinks{

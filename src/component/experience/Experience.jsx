@@ -1,6 +1,5 @@
 import React from 'react'
 import './experience.css'
-import {BsFillPatchCheckFill} from 'react-icons/bs'
 import {AiFillHtml5} from 'react-icons/ai'
 import {SiJavascript} from 'react-icons/si'
 import {IoLogoCss3} from 'react-icons/io'
@@ -25,7 +24,6 @@ const experience = () => {
                 <h4>HTML</h4>           
                 <small className='text-light'>Experienced</small>
               </div>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
             </article>
             <article className='experience_details'>
                 <SiJavascript className='experience__details-icon'/>
@@ -33,7 +31,6 @@ const experience = () => {
                 <h4>JavaScript</h4>           
                 <small className='text-light'>Experienced</small>
               </div>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
             </article>
             <article className='experience_details'>
                 <IoLogoCss3 className='experience__details-icon'/>
@@ -41,7 +38,6 @@ const experience = () => {
                 <h4>CSS</h4>           
                 <small className='text-light'>Experienced</small>
               </div>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
             </article>
             <article className='experience_details'>
                 <FaReact className='experience__details-icon'/>
@@ -49,7 +45,6 @@ const experience = () => {
                 <h4>React JS</h4>           
                 <small className='text-light'>Beginner</small>
               </div>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
             </article>
           </div> 
         </div>
