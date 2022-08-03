@@ -66,8 +66,12 @@
 
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
+    #experience{
+        transform: translateY(5%);
+    }
+    
     .experience__container{
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .experience__container > div{
