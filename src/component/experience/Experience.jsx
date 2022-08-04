@@ -54,7 +54,7 @@ const experience = () => {
           <article className='experience_details edu'>
                 <FaSchool className='experience__details-icon'/>
                 <div>
-                <h4>SD Jakasampurna VII</h4>           
+                <h4>SDN Jakasampurna VII</h4>           
                 <small className='text-light'>2012 - 2018</small>
                 </div>
             </article>
