@@ -9,7 +9,7 @@ import {SiBlogger} from 'react-icons/si'
 const footer = () => { 
   return (
     <footer id='footer'>
-      <a href='#' className='footer__logo'>RAFISYAH XI RPL A</a>
+      <a href='#' className='footer__logo'>M RAFISYAH R XI RPL A</a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
