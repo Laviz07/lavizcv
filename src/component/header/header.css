@@ -96,7 +96,8 @@ header{
 
     .github{
         transform: rotate(0deg);
-        bottom: 0.1rem;
-        right: 5rem;
+        bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

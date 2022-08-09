@@ -16,7 +16,7 @@ const header = () => {
         <HSocial/>
      
       <div className='me'>
-        <img src={Me} alt="me"/>
+        <img src={Me} alt="me" title='Muhammad Rafisyah Rizkiyawan'/>
       </div>
         <a className='github' href='https://github.com/Laviz07/lavizcv' target='_blank'>See On GitHub&nbsp;&nbsp;< FiGithub/></a>
       </div>

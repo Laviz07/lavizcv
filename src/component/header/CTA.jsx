@@ -1,11 +1,12 @@
 import React from 'react'
 import CV from '../../assets/CV.pdf'
+import {Link} from 'react-router-dom'
 
 const CTA = () => {
   return (
     <div className='cta'>
         <a href= {CV} download className='btn btn-variant'>Download My CV</a>
-        <a href="#contact" className='btn btn-primary'>lets talk</a>
+        <Link to="/contact" className="btn btn-primary">Lets Talk</Link>
     </div>
   )
 }
