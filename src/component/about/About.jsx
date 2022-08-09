@@ -5,6 +5,7 @@ import {FaBirthdayCake} from 'react-icons/fa'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {BsGenderMale} from 'react-icons/bs'
 import {RiRoadMapFill} from 'react-icons/ri'
+import {Link} from 'react-router-dom'
 
 const About = () => {
   return (
@@ -52,7 +53,7 @@ const About = () => {
         Memiliki ketertarikan terhadap dunia teknologi terutama tentang programing.
         </p>
 
-        <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+        <Link to="/contact" className="btn btn-primary">Lets Talk</Link>
       </div>
     </div>
 

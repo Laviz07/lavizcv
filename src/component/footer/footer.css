@@ -51,18 +51,11 @@ footer a{
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
-/*=========================== MEDIA QUERIES (MEDIUM DEVICES)==========================*/
-@media screen and (max-width: 1024px){
-    #footer{
-        transform: translateY(130%);
-        width: 100%;
-    }
-}
+
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
-    #footer{
-        transform: translateY(270%);
-        width: 100%;
+    footer{
+        margin-top: 14rem;
     }
     .permalinks{
         flex-direction: column;

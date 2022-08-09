@@ -36,23 +36,18 @@
 
 /*=========================== MEDIA QUERIES (MEDIUM DEVICES)==========================*/
 @media screen and (max-width: 1024px){
-    #portofolio{
-        transform: translateY(-150%);
-    }
-
     .portofolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
-        height: 0;
     }
    
 }
 
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
-
     .portofolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+        height: auto;
     }
 }

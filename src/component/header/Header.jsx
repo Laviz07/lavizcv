@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/rafi bening.png'
 import HSocial from './HSocial'
+import {FiGithub} from 'react-icons/fi'
 
 const header = () => {
   return (
@@ -16,9 +17,8 @@ const header = () => {
      
       <div className='me'>
         <img src={Me} alt="me"/>
-
       </div>
-      <a href="#about" className='scroll__down'>Scroll Down &gt;&gt;&gt;</a>
+        <a className='github' href='https://github.com/Laviz07/lavizcv' target='_blank'>See On GitHub&nbsp;&nbsp;< FiGithub/></a>
       </div>
     </header>
   )
