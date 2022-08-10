@@ -11,10 +11,10 @@ const header = ({datas}) => {
   const {helo, setHelo} =datas
 
   function orang(){
-      setNama("Muhammad Rafisyah Rizkiyawan");
+      setNama("Muhammad Rafisyah Rizkiyawan"); 
   }
   function kerja(){
-    setJob("Frontend Developer");
+    setJob("Software Engineer");
   }
   function halo(){
     setHelo("Hello i'am");
