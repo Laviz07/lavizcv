@@ -8,10 +8,11 @@ import {FaUserAstronaut} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 const Nav = () => {
+
   return (
     <nav>
       <ul>
-        <li><Link to="/"><AiOutlineHome className='nicon'/>  Home</Link></li>
+        <li><Link to="/" ><AiOutlineHome className='nicon'/>Home</Link></li>
         <li><Link to="/about"><BiUser className='nicon'/>  About</Link></li>
         <li><Link to="/experience"><BiBookAlt className='nicon'/>  Experience</Link></li>
         <li><Link to="/portofolio"><AiOutlineFile className='nicon'/>  Portofolio</Link></li>

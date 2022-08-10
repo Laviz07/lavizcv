@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './component/header/Header' 
 import Nav from './component/nav/Nav'
 import About from './component/about/About'
@@ -9,12 +9,20 @@ import Footer from './component/footer/Footer'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
+  const [helo, setHelo] = useState('')
+  const [nama, setNama] = useState('Assalamualaikum')
+  const [job, setJob] = useState('')
+
+  const datas = {
+    nama, setNama, job, setJob, helo,setHelo
+  }
+
   return (
     <Router>
     <>
       <Nav />
       <Routes>
-        <Route exact path="/"element={<Header/>}/>
+        <Route exact path="/"element={<Header datas={datas} />}/>
         <Route exact path="/about"element={<About/>}/>
         <Route exact path="/experience"element={<Experience/>}/>
         <Route exact path="/portofolio"element={<Portofolio/>}/>

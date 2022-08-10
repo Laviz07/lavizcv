@@ -5,13 +5,28 @@ import Me from '../../assets/rafi bening.png'
 import HSocial from './HSocial'
 import {FiGithub} from 'react-icons/fi'
 
-const header = () => {
+const header = ({datas}) => {
+  const {nama, setNama} = datas
+  const {job, setJob} = datas
+  const {helo, setHelo} =datas
+
+  function orang(){
+      setNama("Muhammad Rafisyah Rizkiyawan");
+  }
+  function kerja(){
+    setJob("Frontend Developer");
+  }
+  function halo(){
+    setHelo("Hello i'am");
+  }
+
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello i'm</h5>
-        <h1>Muhammad Rafisyah Rizkiyawan</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
+        <h5 >{helo}</h5>
+        <h1>{nama}</h1>
+        <h5 className='text-light'>{job}</h5><br/>
+        <button className='btn btn-primary' onClick={() => {halo(); orang(); kerja()}}><i>Waalaikumsalam</i></button>
         <CTA/>
         <HSocial/>
      
