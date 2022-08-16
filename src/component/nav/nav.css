@@ -10,7 +10,6 @@ ul{
   font-size: 1.5rem;
 }
 
-
 li a{
   display: inline-block;
   color: white;
@@ -33,5 +32,4 @@ li a:hover{
 
 .datar:hover{
   background-color: var(--color-primary);
-  padding: 0.9rem;
 }
