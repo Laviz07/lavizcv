@@ -1,23 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/rafi bening.png'
 import HSocial from './HSocial'
 import {FiGithub} from 'react-icons/fi'
 
-const header = ({datas}) => {
+const Header = ({datas}) => {
   const {nama, setNama} = datas
   const {job, setJob} = datas
   const {helo, setHelo} =datas
+  const [ulang, setUlang] = useState(false)
 
   function orang(){
       setNama("Muhammad Rafisyah Rizkiyawan"); 
   }
   function kerja(){
-    setJob("Software Engineer");
+    setUlang(!ulang);
+    setJob(ulang ? "Software Engineer" : 'Rekayasa Perangkat Lunak');
   }
   function halo(){
-    setHelo("Hello i'am");
+    setUlang(!ulang);
+    setHelo(ulang ? "Hello i'am" : 'Assalamualaikum');
   }
 
   return (
@@ -39,4 +42,4 @@ const header = ({datas}) => {
   )
 }
 
-export default header
+export default Header

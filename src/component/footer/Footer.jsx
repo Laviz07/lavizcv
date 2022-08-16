@@ -15,7 +15,7 @@ const footer = () => {
         <a href="https://www.instagram.com/rafisyah_07/" target="_blank"><RiInstagramLine/></a>
         <a href="https://web.facebook.com/rafisyah.r" target="_blank"><FaFacebookSquare/></a>
         <a href="https://mail.google.com/" target="_blank"><MdEmail/></a>
-        <a href="https://www.youtube.com/watch?v=QtBDL8EiNZo&t=4s" target="_blank"><BsYoutube/></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><BsYoutube/></a>
         <a href="https://rafisyahtugas.blogspot.com/" target="_blank"><SiBlogger/></a>
       </div>
 

@@ -30,13 +30,19 @@
 
 .portofolio__item-cta {
     display: flex;
-    gap: 1rem;
+    gap: 8rem;
     margin-bottom: 1rem;
     font-size: 1rem;
 }
 
+.portofolio__item-cta a{
+    align-self: flex-start;
+    margin-top: 0.5rem;
+}
+
 .logo{
     font-size: 2rem;
+    color: white;
 }
 
 
@@ -55,5 +61,14 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         height: auto;
+    }
+    .portofolio__item-cta {
+        display: flex;
+        gap: 0.7rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .portofolio__item-cta a{
+        margin-top: 1rem;
     }
 }

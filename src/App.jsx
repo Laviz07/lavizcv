@@ -6,6 +6,7 @@ import Experience from './component/experience/Experience'
 import Portofolio from './component/portofolio/Portofolio'
 import Contact from './component/contact/Contact'
 import Footer from './component/footer/Footer'
+import NotFound from './component/NotFound'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/experience"element={<Experience/>}/>
         <Route exact path="/portofolio"element={<Portofolio/>}/>
         <Route exact path="/contact"element={<Contact/>}/>
+        <Route path='/*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </>
